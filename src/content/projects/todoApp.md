@@ -2,24 +2,26 @@
 title: 'Todo App'
 description: 'A simple todo app with email link and Google login, and optimistic updates.'
 pubDate: 'March 16 2023'
-heroImage: '/todoApp.jpeg'
-badge: 'Demo'
+heroImage: '/todoApp/todoApp.jpeg'
+badge: 'Live Demo'
 ---
 
 This is a minimalistic todo app.
 
 Live demo: [https://todo.vincentchuck.com](https://todo.vincentchuck.com/)
 
+[Github repo](https://github.com/VincentChuck/todo)
+
 ## Highlights
 
 - **No password required**: supports Google login and email magic link login.
-  ![Login page](/todoLogin.jpeg)
+  ![Login page](/todoApp/todoLogin.jpeg)
 
 - **Mobile responsive** and uses the device's **dark / light mode**.
-  ![Mobile view](/todoMobileCombined.jpeg)
+  ![Mobile view](/todoApp/todoMobileCombined.jpeg)
 
 - **Optimistic updates** for the creation, update, and deletion of todos for better user experience.
-  ![Todo completed](/todoCompleted.jpeg)
+  ![Todo completed](/todoApp/todoCompleted.jpeg)
 
 ## Technologies used:
 
