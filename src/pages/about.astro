@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TimeLineElement from '../components/about/TimeLine.astro';
+---
+
+<BaseLayout title="About Me" sideBarActiveItemID="about">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">About me</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    I've always been a tech enthusiast who follows tech news closely and watches
+    coding video for fun. Born as a tinkerer, I've taken apart electronics when
+    I was a kid, flashed custom Android ROMs for fun, and recently tinkered with
+    Neovim and Tmux configs to optimise my coding workflow.
+    <br /><br />
+     Tech has always been a side hobby of mine, and the thought of working in
+    the tech industry never came across my mind until recently.
+    <br /><br />
+     Throughout my 3-year experience working as an actuarial analyst, I noticed
+    that the tasks that I enjoyed the most involved programming: writing Excel
+    macros, automating tasks with windows batch scripts, and writing C#
+    functions for our new spreadsheet model.
+    <br /><br />
+     Having discovered my passion in programming, I took the leap to study web
+    development full time in 2022. I now strive to be a software developer who
+    delivers great digital experiences to the users.
+  </div>
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Bsc in Actuarial Science (First Class Honours)"
+      subtitle="2016 - 2019 | London School of Economics and Political Science, London, United Kingdom"
+    >
+      <div>
+        Studied actuarial mathematics, statistics, economics, and finance.
+      </div>
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Actuarial Analyst"
+      subtitle="Sep 2019 - Sep 2022 | Prudential Assurance Malaysia Berhad, Kuala Lumpur, Malaysia"
+    >
+      <ul class="list-disc mx-6">
+        <li>
+          Maintained and updated internal pricing excel models to incorporate
+          business requirements e.g. new products or product revisions.
+        </li>
+        <li>
+          Wrote C# functions for our pricing model on a new platform and ensured
+          consistency between the new and existing Excel model.
+        </li>
+        <li>
+          Drafted requirement documents and facilitated user acceptance testing
+          (UAT), accuracy testing and regression testing for various iPad apps
+          used by our agents, and for our internal insurance calculation model
+          and its peripheral systems.
+        </li>
+      </ul>
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="underline list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a
+        href="https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/5c1e1c3ae2f6a5d6750e29185650254e"
+        target="_blank"
+        >Full Stack Open (Core Course) by University of Helsinki, Finland</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://studies.cs.helsinki.fi/stats/api/certificate/fs-typescript/en/325b0eb8f0e3dac9b4cdc01f2de2224d"
+        target="_blank"
+        >Full Stack Open (Typescript Course) by University of Helsinki, Finland</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://freecodecamp.org/certification/fcc7c1e774e-c2a1-4772-8e27-6f7cd8809498/javascript-algorithms-and-data-structures"
+        target="_blank"
+        >JavaScript Algorithms and Data Structures by freeCodeCamp</a
+      >
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li><b>Languages:</b> Typescript / Javascript, HTML & CSS, SQL, Bash</li>
+    <li>
+      <b>Frameworks / Libraries:</b> React, Next.js, Tailwind CSS, PostgreSQL,
+      Prisma, tRPC, Node.js, Express.js
+    </li>
+    <li><b>Tools:</b> Git, Neovim, Tmux, Homebrew</li>
+    <li>
+      <b>Platforms:</b> Github, Vercel, Supabase, Railway, Mailtrap, Fly.io
+    </li>
+    <li><b>Human Languages:</b> English, Chinese, Malay</li>
+  </ul>
+</BaseLayout>
