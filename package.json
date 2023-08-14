@@ -27,6 +27,7 @@
     "@astrojs/language-server": "^2.2.0",
     "@tailwindcss/typography": "^0.5.9",
     "prettier": "^3.0.1",
-    "prettier-plugin-astro": "^0.11.0"
+    "prettier-plugin-astro": "^0.11.0",
+    "rehype-external-links": "^2.1.0"
   }
 }

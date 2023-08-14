@@ -18,11 +18,11 @@ Live demo: [https://books.vincentchuck.com](https://books.vincentchuck.com)
 
 ## Highlights
 
-- **Mobile responsive**
+- Mobile responsive
 
-- **Components that closely mimics the actual Amazon website**:
-  - Multi-level category filter ![category filter demo](/rainforestBooks/categoryFilterDemo.gif)
-  - Mobile search filter modal ![Mobile search filter modal demo](/rainforestBooks/mobileModalDemo.gif)
+- Components that closely mimics the actual Amazon website:
+  - **Multi-level category filter** ![category filter demo](/rainforestBooks/categoryFilterDemo.gif)
+  - **Mobile search filter modal** ![Mobile search filter modal demo](/rainforestBooks/mobileModalDemo.gif)
 
 ## Technologies used:
 
