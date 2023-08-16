@@ -1,0 +1,19 @@
+---
+const { badge, classAdd } = Astro.props;
+
+let badgeColour: string;
+
+switch (badge) {
+  case 'Live Demo':
+    badgeColour = 'badge-secondary';
+    break;
+  case 'Misc':
+    badgeColour = 'badge-accent';
+    break;
+  default:
+    badgeColour = 'badge-info';
+    break;
+}
+---
+
+<div class=`${classAdd} badge ${badgeColour}`>{badge}</div>
