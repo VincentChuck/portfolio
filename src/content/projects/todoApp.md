@@ -28,6 +28,6 @@ Live demo: [https://todo.vincentchuck.com](https://todo.vincentchuck.com/)
 - Language: [TypeScript](https://www.typescriptlang.org/)
 - Frontend: [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/)
 - Backend: [tRPC](https://trpc.io/)
-- Database: [PostgreSQL](PostgreSQL), [Prisma ORM](https://www.prisma.io/), hosted on [Supabase](https://supabase.com/)
+- Database: [PostgreSQL](PostgreSQL), [Prisma ORM](https://www.prisma.io/), hosted on [Railway](https://railway.app/)
 - Auth: [NextAuth.js](https://next-auth.js.org/) , [Mailtrap](https://mailtrap.io/) email delivery
 - Deployed on [Vercel](https://vercel.com/)
