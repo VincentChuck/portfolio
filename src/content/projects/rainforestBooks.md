@@ -3,9 +3,12 @@ title: 'Rainforest Books'
 description: 'Full stack Amazon clone.'
 pubDate: 'July 27 2023'
 heroImage: '/rainforestBooks/rainforestBooks.png'
+badge: 'Live Demo'
 ---
 
 This is a mobile responsive Amazon web app clone that closely mimics its appearance and user experience.
+
+Live demo: [https://books.vincentchuck.com](https://books.vincentchuck.com)
 
 [Github repo](https://github.com/VincentChuck/amazon-clone)
 
